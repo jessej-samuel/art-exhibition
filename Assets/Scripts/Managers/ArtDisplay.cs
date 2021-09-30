@@ -22,9 +22,18 @@ public class ArtDisplay : MonoBehaviour
         // Debug.Log(art);
         title.text = art.title;
         artist.text = art.artist;
-        link.text = art.link;
+        link.text = "Click here to visit artist page";
         description.text = art.description;
         artwork.sprite = art.image;
-        art.Print();
+       
+    }
+
+    public void SetNewArt(Art newArt)
+    {
+        title.text = newArt.title;
+        artist.text = newArt.artist;
+        //link.text = newArt.link;
+        description.text = newArt.description;
+        artwork.sprite = newArt.image;
     }
 }

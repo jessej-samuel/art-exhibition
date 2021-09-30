@@ -11,10 +11,6 @@ public class Art : ScriptableObject
     public string artist;
     public string link;
     public string description;
-    public void Print()
-    {
-        // Debug.Log(title + " by " + artist);
-        Debug.Log(ArtDisplay.main.gameObject.name);
-    }
+ 
     
 }

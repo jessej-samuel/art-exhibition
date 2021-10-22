@@ -28,5 +28,12 @@ public class PlayerMove : MonoBehaviour
         controller.Move(move*speed*Time.deltaTime);
         v.y += gravity * Time.deltaTime;
         controller.Move(v*Time.deltaTime);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            UIManager.main.ToggleUIArt(true);//remnove arguments alter
+            UIManager.main.ToggleUIArt(true);
+        }
+        
     }
 }

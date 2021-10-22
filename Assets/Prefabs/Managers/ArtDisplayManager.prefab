@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d4ff7f9a7f9bcf41b35b6a9ce1c668a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  art: {fileID: 11400000, guid: 80284c676ed56e843905537858f458c3, type: 2}
+  art: {fileID: 11400000, guid: 5faea269b5cdfde49b253ca02a3464de, type: 2}
   title: {fileID: 0}
   artist: {fileID: 0}
   link: {fileID: 0}
   description: {fileID: 0}
+  current: {fileID: 0}
   artwork: {fileID: 0}

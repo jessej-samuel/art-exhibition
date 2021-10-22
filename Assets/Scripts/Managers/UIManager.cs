@@ -31,10 +31,10 @@ public class UIManager : MonoBehaviour
 
     public void ToggleUIStd(bool state)
     {
-        uiStd.SetActive(state);
+        uiStd.SetActive(!uiStd.activeSelf);
     }
     public void ToggleUIArt(bool state)
     {
-        uiArt.SetActive(state);
+        uiArt.SetActive(!uiArt.activeSelf);
     }
 }
